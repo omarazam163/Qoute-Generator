@@ -1,0 +1,44 @@
+.container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+    text-align: center;
+}
+
+.container h1
+{
+    font-size: 70px;
+}
+
+.container p
+{
+    font-size: 30px;
+}
+
+.container button
+{
+    font-size: 20px;
+    background-color: aqua;
+    border-radius: 100vh 100vh 100vh 100vh;
+    padding: 20px 50px;
+    border: none;
+    transition: 0.3s ease-in-out;
+}
+
+.container button:hover
+{
+
+    cursor: pointer;
+    background-color: rgba(0, 255, 255, 0.571);
+}
+
+
+#quote
+{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
